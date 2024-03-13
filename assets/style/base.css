@@ -28,6 +28,7 @@ html, body {
   --white-color: #FFFFFF;
   --gray-color: #4F4F4F;
   --border-radius: 10px;
+  --section-margin-top: 40px;
 }
 
 body {
