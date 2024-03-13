@@ -89,7 +89,7 @@ a {
 
 /* main */
 
-.browse-homes {
+.browse-homes, .similar-homes {
   margin-top: var(--section-margin-top);
 }
 
