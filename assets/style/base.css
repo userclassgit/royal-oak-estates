@@ -40,3 +40,53 @@ body {
   /* Available font weights for Libre : any value from 400 to 700 */
   font-family: "Libre Bodoni", serif;
 }
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+ul {
+  gap: 20px;
+}
+
+/*
+  Header
+*/
+
+
+header {
+  height: 60px;
+  background-color: rgb(56, 75, 183);
+}
+
+header h2, header h2 a {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+}
+
+nav ul li {
+  line-height: 60px;
+  cursor: default;
+  list-style: none;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: rgb(199, 199, 237);
+}
+
+/*
+  Footer
+*/
+
+
