@@ -58,6 +58,10 @@
 }
 
 /* contact */
+.contact-column {
+  width: 100%;
+}
+
 form {
   width: 50%;
 }
