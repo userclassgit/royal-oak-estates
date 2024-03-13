@@ -96,6 +96,51 @@ h1 {
   border: 1px solid var(--white-color);
 }
 
+/* about us */
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.agent-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* background-color: black; */
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  width: calc(50% - 20px);
+}
+
+.team-member {
+  text-align: center;
+  width: calc(50% - 20px);
+  place-content: center;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px;
+  border-radius: var(--borfer-radius);
+  h3 {
+    color: var(--dark-color);
+    font-size: 24px;
+    font-weight: 300;
+  }  
+
+  span {
+    font-weight: 600;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+}
+
 /* contact */
 .contact-column {
   width: 100%;

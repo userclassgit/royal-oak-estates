@@ -1,6 +1,10 @@
 @charset "utf-8";
 @import url("./reset.css");
 
+* {
+  transition: all 0.5 ease-in-out;
+}
+
 html, body {
   height: 100%;
 }
