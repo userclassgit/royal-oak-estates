@@ -41,11 +41,43 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--app-background-dark);
+
+  .search-bar-div {
+    position: relative;
+    /* height: 57px; */
+    margin-top: 30px;
+    .search-bar {
+      height: 70px;
+      width: 84%;
+      border-radius: 35px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.393);
+      padding-left: 4%;
+
+      &::placeholder {
+        color: var(--gray-color); /* Change as needed */
+        opacity: 0.4; /* Firefox requires this to change the color */
+        font-size: 22px;
+      }
+    }
+    .search-button {
+      position: absolute;
+      top: 50%;
+      right: 9%;
+      transform: translateY(-50%);
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: var(--dark-color) url('../media/search-icon.png') no-repeat center center;
+      background-size: 50%;
+    }
+  }
+
   h1 {
     color: var(--white-color);
     font-size: 50px;
     font-weight: 900;
     line-height: 60px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.393);
   }
 }
 
