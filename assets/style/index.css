@@ -31,6 +31,9 @@
 /* Hero banner end */
 
 /* browse-homes */
+.browse-homes {
+margin-top: var(--section-margin-top);
+}
 
 .row {
   gap: 15px;
@@ -43,6 +46,21 @@
 .home {
   width: 200px;
   height: 200px;
-  background-color: aqua;
-  border: 2px solid black;
+  background-color: aqua; /* please change this monstruosity later */
+  border: 2px solid black; /* please change this monstruosity later */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 300px;
+}
+
+/* responsivness */
+
+@media (max-width: 904px) {
+
+}
+
+@media (max-width: 599px){
+
 }
