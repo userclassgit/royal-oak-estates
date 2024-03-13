@@ -62,12 +62,29 @@
 /* Picture previewer  end*/
 /* info */
 
+.info div {
+  margin-top: 15px;
+}
+
 .home-info{
-  width: 40%;
+  width: 30%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.home-info p {
+  font-size: 20px;
 }
 
 .map {
-  width: 60%;
+  width: 70%;
 }
 
 .map iframe{
@@ -77,4 +94,6 @@
 
 /*more homes*/
 
-
+.similar-homes {
+  margin-bottom: 40px;
+}
