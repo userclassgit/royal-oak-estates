@@ -2,10 +2,6 @@
 @import url("./reset.css");
 @import url("./base.css");
 
-
-
-
-
 /* Picture previewer */
 
 /* this is an outer container, required for alignment and setting the size */
@@ -64,3 +60,21 @@
 }
 
 /* Picture previewer  end*/
+/* info */
+
+.home-info{
+  width: 40%;
+}
+
+.map {
+  width: 60%;
+}
+
+.map iframe{
+  height: 100%;
+  width: 100%;
+}
+
+/*more homes*/
+
+
