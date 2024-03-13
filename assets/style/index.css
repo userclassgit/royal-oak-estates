@@ -92,38 +92,3 @@ form {
   width: 50%;
 }
 
-/* responsivness */
-
-@media (max-width: 904px) {
-  .sub-row {
-    display: block;
-    gap: 15px;
-  }
-
-  .home + .home {
-    margin-top: 15px;
-  }
-
-  .home {
-    width: 300px;
-    height: 300px;
-    background-size: 450px;
-  }
-}
-
-@media (max-width: 599px){
-  .row {
-    display: block;
-  }
-
-  .sub-row + .sub-row {
-    margin-top: 15px;
-  }
-
-  .home {
-    width: calc(100svw - 40px);
-    height: 300px;
-    background-size: 600px;
-    border-radius: 0;
-  }
-}
