@@ -12,7 +12,7 @@ homes.forEach((home, index) => {
 //Login dialog interaction
 const dialog = document.querySelector("dialog");
 const showButton = document.querySelector("#login-btn");
-
+const xButton = document.querySelector('.x-mark');
 // "Show the dialog" button opens the dialog modally
 showButton.addEventListener("click", () => {
   dialog.showModal();
@@ -24,3 +24,5 @@ dialog.addEventListener('click', (event) => {
     dialog.close();
   }
 });
+//closes with x button
+xButton.addEventListener('click', () => dialog.close() );
