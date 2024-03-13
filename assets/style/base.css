@@ -96,11 +96,13 @@ a {
 .row {
   display: flex;
   gap: 15px;
+  width: 100%;
 }
 
 .sub-row {
   display: flex;
   gap: 15px;
+  width: 50%;
 }
 
 .row + .row {
@@ -108,7 +110,7 @@ a {
 }
 
 .home {
-  width: 200px;
+  width: 100%;
   height: 200px;
   background-color: aqua; /* please change this monstruosity later */
   border: 2px solid black; /* please change this monstruosity later */
@@ -230,6 +232,7 @@ ul li {
   .sub-row {
     display: block;
     gap: 15px;
+    width: 100%;
   }
 
   .home + .home {
@@ -237,7 +240,7 @@ ul li {
   }
 
   .home {
-    width: 300px;
+    width: 100%;
     height: 300px;
     background-size: 450px;
   }
