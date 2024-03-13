@@ -9,6 +9,11 @@ html, body {
   display: flex;
 }
 
+.center {
+  display: grid;
+  place-items: center;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -35,4 +40,3 @@ body {
   /* Available font weights for Libre : any value from 400 to 700 */
   font-family: "Libre Bodoni", serif;
 }
-
