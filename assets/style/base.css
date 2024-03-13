@@ -27,7 +27,8 @@ html, body {
   --dark-color: #1D1D1D;
   --white-color: #FFFFFF;
   --gray-color: #4F4F4F;
-  --border-radius: 10px;
+  --small-border-radius: 3px;
+  --big-border-radius: 10px;
   --section-margin-top: 40px;
 }
 
@@ -118,7 +119,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 300px;
-  border-radius: var(--border-radius);
+  border-radius: var(--big-border-radius);
 }
 
 /* dialog section */
@@ -127,13 +128,12 @@ dialog {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid #ccc;
   background-color: var(--white-color);
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-radius: var(--border-radius);
-  width: 320px
+  border-radius: var(--small-border-radius);
+  width: 320px;
+  border: none; 
 }
 /* Styling the Overlay (backdrop) */
 dialog::backdrop {
@@ -156,14 +156,15 @@ dialog input[type="text"], dialog input[type="password"] {
   line-height: 40px;
   border: 1px solid var(--gray-color);
   padding-left: 10px;
+  border-radius: var(--small-border-radius);
 }
 
-dialog input[type="button"] {
+dialog input[type="button"], button {
   height: 40px;
   color: var(--white-color);
   background-color: var(--dark-color);
   width: 100%;
-  border-radius: 20px;
+  border-radius: var(--small-border-radius); 
 }
 
 dialog h3 {
@@ -183,13 +184,14 @@ dialog p {
 }
 
 .x-mark {
-  width: 30px;
-  height: 30px;
-  background-color: black; /* remove */
-  /* background-image: url("./"); */ /* put an image here */
+  width: 25px;
+  height: 25px;
+  /* background-color: black; */
+  background-image: url("../media/x-mark-icon.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 /* dialog section  end*/
