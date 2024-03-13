@@ -32,7 +32,7 @@
 
 /* browse-homes */
 .browse-homes {
-margin-top: var(--section-margin-top);
+  margin-top: var(--section-margin-top);
 }
 
 .row {
@@ -60,6 +60,26 @@ margin-top: var(--section-margin-top);
   background-size: contain;
   background-size: 300px;
   border-radius: var(--border-radius);
+}
+
+/* contact */
+form {
+  width: 50%;
+}
+
+.small-input {
+  width: 100%;
+  background-color: blanchedalmond; /*change color*/
+}
+
+.big-input {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
+.contact-info {
+  width: 50%;
 }
 
 /* responsivness */
