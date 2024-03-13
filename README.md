@@ -18,3 +18,7 @@ Welcome to the Real Estate Website! This website is designed to help users find 
 - **Authentication**:
 - **Maps Integration**: Google Maps API
 - **Responsive Design**:
+
+## Demo
+
+Please checkout our new website [here](https://henrybreukelman.github.io/royal-oak-estates/)
