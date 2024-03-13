@@ -4,6 +4,24 @@
 
 /* header  */
 
+
+/* dialog section */
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  background-color: var(--white-color);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/* Styling the Overlay (backdrop) */
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.456);
+}
+
 /* header  end*/
 
 /* Hero banner */
