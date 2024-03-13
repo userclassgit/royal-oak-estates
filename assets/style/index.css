@@ -9,14 +9,26 @@
 /* Hero banner */
 .hero-banner {
   display: flex;
+  position: relative;
 
-  background-image: url("../media/hero-banner.jpg");
-  height: 100dvh;
+  background-image: url("../media/header-img.jpeg");
+  height: calc(100dvh - 60px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.479);
+  }
 }
+
+
 
 .search-bar-container {
   text-align: center;
@@ -25,6 +37,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--app-background-dark);
+  h1 {
+    color: var(--white-color);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+  }
 }
 
 

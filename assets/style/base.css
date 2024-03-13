@@ -40,6 +40,7 @@ body {
   /* add this class to the Royal Oak logo in the upper left corner of the page */
   /* Available font weights for Libre : any value from 400 to 700 */
   font-family: "Libre Bodoni", serif;
+  font-weight: 700;
 }
 
 .spacebetween {
@@ -47,7 +48,7 @@ body {
 }
 
 ul {
-  gap: 20px;
+  gap: 35px;
 }
 
 /*
@@ -57,7 +58,7 @@ ul {
 
 header {
   height: 60px;
-  background-color: rgb(56, 75, 183);
+  background-color: var(--dark-color);
 }
 
 header h2, header h2 a {
@@ -75,16 +76,16 @@ nav ul li {
 
 a {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
   color: rgb(199, 199, 237);
-}
+} */
 
 /*
   Footer
