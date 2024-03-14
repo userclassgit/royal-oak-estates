@@ -29,6 +29,10 @@
   height: 50px;
   border-radius: 50%;
   background-color: #5a5e5d8e;
+  background-image: url('../media/left-button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   line-height: 50px;
   text-align: center;
   cursor: pointer;
@@ -39,6 +43,10 @@
   height: 50px;
   border-radius: 50%;
   background-color: #5a5e5d8e;
+  background-image: url('../media/right-button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   line-height: 50px;
   text-align: center;
   cursor: pointer;
