@@ -34,7 +34,6 @@ agents.forEach((agent, index) => {
 
 const header = document.querySelector('header');
 const navBar = document.querySelector('nav ul');
-const nav = document.querySelector('nav');
 const menuButton = document.querySelector('.menu-icon');
 
 menuButton.addEventListener("click", menuToggle);
