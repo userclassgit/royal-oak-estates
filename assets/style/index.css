@@ -86,7 +86,7 @@ h1 {
 
 /* browse-homes */
 
-#browse-homes {
+/* #browse-homes {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.8s ease, transform 1s ease;
@@ -95,7 +95,7 @@ h1 {
 #browse-homes.show {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 .home {
   cursor: pointer;
@@ -181,7 +181,7 @@ h1 {
   margin-top: var(--section-margin-top);
 }
 
-#about-us {
+/* #about-us {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.8s ease, transform 1s ease;
@@ -190,7 +190,7 @@ h1 {
 #about-us.show {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 .about-top-text {
   flex-direction: column;

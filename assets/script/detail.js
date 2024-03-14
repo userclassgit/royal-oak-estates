@@ -74,7 +74,7 @@ function menuToggle() {
 //animations
 const imagesSection = document.getElementById('images-section');
 const houseInfo = document.getElementById('house-info'); 
-const moreHouses = document.getElementById('more-houses');
+/* const moreHouses = document.getElementById('more-houses'); */
 
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
@@ -89,7 +89,7 @@ const animationList = [
   header,
   imagesSection,
   houseInfo,
-  moreHouses,
+  /* moreHouses, */
 ];
 
 animationList.forEach(element => {

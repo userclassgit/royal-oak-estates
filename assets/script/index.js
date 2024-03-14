@@ -71,9 +71,9 @@ const observer = new IntersectionObserver((entries, observer) => {
 const animationList = [
   header,
   heroBanner,
-  homesSection,
+  /* homesSection, */
   article,
-  aboutUs,
+  /* aboutUs, */
   contactUs
 ];
 

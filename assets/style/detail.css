@@ -91,7 +91,7 @@
 
 #house-info { 
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
   transition: opacity 0.8s ease, transform 1s ease;
 }
 
@@ -138,16 +138,16 @@ h3 {
 
 /*more homes*/
 
-#more-houses { 
+/* #more-houses { 
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
   transition: opacity 0.8s ease, transform 1s ease;
 }
 
 #more-houses.show {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 .similar-homes {
   margin-bottom: 40px;
