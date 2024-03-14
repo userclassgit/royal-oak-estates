@@ -89,6 +89,10 @@ h1 {
   cursor: pointer;
 }
 
+.home h3 {
+  font-size: 25px;
+}
+
 /* article */
 
 .article {

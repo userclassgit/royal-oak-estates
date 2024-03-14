@@ -28,8 +28,8 @@
 .left-button {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: #5a5e5d8e;
+  border-radius: var(--small-border-radius);
+  background-color: #2b2b2b8e;
   background-image: url('../media/left-button.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -42,8 +42,8 @@
 .right-button {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: #5a5e5d8e;
+  border-radius: var(--small-border-radius);
+  background-color: #2b2b2b8e;
   background-image: url('../media/right-button.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 }
 
 .spacer {
-  width: calc(100% - 120px);
+  width: calc(100% - 250px);
 }
 /* left right buttons here */
 
