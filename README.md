@@ -44,3 +44,5 @@ This project is licensed under the google License - see the [LICENSE](#) file fo
 Images used in this project are sourced from [Unsplash](https://unsplash.com/).
 
 Favicon is generated from [Favicon.io](https://favicon.io/).
+
+&copy; 2024 Royal Oak Estates. All rights reserved.
