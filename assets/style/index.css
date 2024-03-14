@@ -397,6 +397,7 @@ form input + input {
   }
 
   .contact-column form, .contact-column .contact-info {
+    position: relative;
     z-index: 4;
   }
 }
@@ -441,6 +442,7 @@ form input + input {
   }
 
   .contact-column form, .contact-column .contact-info {
+    position: relative;
     z-index: 4;
   }
 }
