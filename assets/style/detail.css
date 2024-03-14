@@ -79,6 +79,11 @@
   background-size: cover;
   border-radius: var(--small-border-radius);
   margin-top: 10px;
+  transition: all 0.25 ease-in-out;
+}
+
+.tumbnail:hover {
+  transform: scale(1.015);
 }
 
 /* Picture previewer  end*/
