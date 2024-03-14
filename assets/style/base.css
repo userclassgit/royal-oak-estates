@@ -7,7 +7,7 @@
   --gray-color: #4F4F4F;
   --small-border-radius: 3px;
   --big-border-radius: 10px;
-  --section-margin-top: 55px;
+  --section-margin-top: 60px;
 }
 
 * {
@@ -85,9 +85,10 @@ display: flex;
 justify-content: space-between;
 }
 
-.title {
+/* .title {
   width: 40svw;
-}
+} */
+/* commented this out cuz it makes the positions of job titles in about us look weird */
 
 nav ul {
   display: flex;
