@@ -2,19 +2,25 @@
 @import url("./reset.css");
 
 :root {
-  --dark-color: #1D1D1D;
-  --white-color: #FFFFFF;
-  --gray-color: #4F4F4F;
+  --dark-color: #1d1d1d;
+  --white-color: #ffffff;
+  --gray-color: #4f4f4f;
   --small-border-radius: 3px;
   --big-border-radius: 10px;
   --section-margin-top: 60px;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray-color);
 }
 
 * {
   transition: all 0.5 ease-in-out;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -31,7 +37,7 @@ html, body {
   justify-content: space-between;
 }
 
-.container { 
+.container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
 }
@@ -56,9 +62,9 @@ ul {
   gap: 35px;
 }
 
-.button{
+.button {
   width: 130px;
-  height:50px;
+  height: 50px;
   margin: 10px 0;
   font-size: 18px;
 }
@@ -66,7 +72,6 @@ ul {
 /*
   Header
 */
-
 
 header {
   height: 60px;
@@ -81,7 +86,8 @@ header.show {
   transform: translateY(0);
 }
 
-header h2, header h2 a {
+header h2,
+header h2 a {
   font-size: 26px;
   font-weight: 500;
   color: #fff;
@@ -89,8 +95,8 @@ header h2, header h2 a {
 }
 
 .header-container {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .title {
@@ -127,7 +133,8 @@ a {
 
 /* main */
 
-.browse-homes, .similar-homes {
+.browse-homes,
+.similar-homes {
   margin-top: var(--section-margin-top);
 }
 
@@ -203,7 +210,7 @@ dialog {
   z-index: 1;
   border-radius: var(--small-border-radius);
   width: 320px;
-  border: none; 
+  border: none;
 }
 /* Styling the Overlay (backdrop) */
 dialog::backdrop {
@@ -219,7 +226,8 @@ dialog input[type="checkbox"] {
   display: inline;
 }
 
-dialog input[type="text"], dialog input[type="password"] {
+dialog input[type="text"],
+dialog input[type="password"] {
   display: block;
   width: 100%;
   height: 40px;
@@ -229,12 +237,13 @@ dialog input[type="text"], dialog input[type="password"] {
   border-radius: var(--small-border-radius);
 }
 
-dialog input[type="button"], button {
+dialog input[type="button"],
+button {
   height: 40px;
   color: var(--white-color);
   background-color: var(--dark-color);
   width: 100%;
-  border-radius: var(--small-border-radius); 
+  border-radius: var(--small-border-radius);
 }
 
 dialog h3 {
@@ -270,7 +279,6 @@ dialog p {
   Footer
 */
 
-
 footer {
   height: 80px;
   background-color: var(--dark-color);
@@ -301,7 +309,6 @@ ul li {
 /* responsivness */
 
 @media (max-width: 904px) {
-
   nav ul {
     display: flex;
   }
@@ -322,16 +329,15 @@ ul li {
   }
 }
 
-@media (max-width: 599px){
-
+@media (max-width: 599px) {
   .header-container {
     display: block;
   }
 
   nav ul {
-  display: none;
-  width: 100svw;
-  text-align: center;
+    display: none;
+    width: 100svw;
+    text-align: center;
   }
 
   .menu-icon {
