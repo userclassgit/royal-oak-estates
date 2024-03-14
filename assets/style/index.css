@@ -71,14 +71,14 @@
       background-size: 50%;
     }
   }
+}
 
-  h1 {
-    color: var(--white-color);
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 60px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.393);
-  }
+h1 {
+  color: var(--white-color);
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.393);
 }
 
 /* Hero banner end */
@@ -113,3 +113,28 @@ form {
   width: 50%;
 }
 
+/* responsivness */
+
+@media (max-width: 904px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 599px){
+  h1 {
+    font-size: 30px;
+  }
+
+  .contact-column {
+    display: block;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+}
