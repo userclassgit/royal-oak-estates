@@ -2,6 +2,12 @@
 
 Welcome to the Real Estate Website! This website is designed to help users find their dream homes, explore properties, and connect with real estate agents.
 
+## Demo
+
+Please checkout our new website [here](https://henrybreukelman.github.io/royal-oak-estates/)
+
+NB: Colour Grading can be different from device to device.
+
 ## Features
 
 - **Search**: Easily search for properties based on location, price range, size, and other criteria.
@@ -18,12 +24,6 @@ Welcome to the Real Estate Website! This website is designed to help users find 
 - **Authentication**: HTML Form
 - **Maps Integration**: Google Maps API
 - **Responsive Design**: CSS, JavaScript
-
-## Demo
-
-Please checkout our new website [here](https://henrybreukelman.github.io/royal-oak-estates/)
-
-NB: Colour Grading can be different from device to device.
 
 ## Contributors
 
