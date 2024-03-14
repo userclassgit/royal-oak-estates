@@ -301,7 +301,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-input + input {
+form input + input {
   margin-top: 20px;
 }
 
