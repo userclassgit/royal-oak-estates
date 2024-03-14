@@ -52,6 +52,13 @@ ul {
   gap: 35px;
 }
 
+.button{
+  width: 130px;
+  height:50px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
 /*
   Header
 */

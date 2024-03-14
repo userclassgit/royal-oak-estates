@@ -80,6 +80,10 @@ h3 {
   margin-top: 10px;
 }
 
+.button {
+  width: 250px;
+}
+
 .home-info p {
   font-size: 20px;
 }
