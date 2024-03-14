@@ -42,6 +42,13 @@ body {
   margin-inline: auto;
 }
 
+:root {
+  --dark-color: #1d1d1d;
+  --white-color: #ffffff;
+  --gray-color: #4f4f4f;
+  --border-radius: 10px;
+}
+
 body {
   /* Available font weights for Roboto: 100, 300, 400, 500, 700, 900 */
   font-family: "Roboto", sans-serif;
