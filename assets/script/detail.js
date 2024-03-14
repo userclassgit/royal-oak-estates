@@ -70,3 +70,28 @@ function menuToggle() {
   navBar.style.display = 'flex';
  }
 }
+
+//animations
+const imagesSection = document.getElementById('images-section');
+const houseInfo = document.getElementById('house-info'); 
+const moreHouses = document.getElementById('more-houses');
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+      }
+  });
+}, { threshold: 0.5 });
+
+const animationList = [
+  header,
+  imagesSection,
+  houseInfo,
+  moreHouses,
+];
+
+animationList.forEach(element => {
+  observer.observe(element);
+});

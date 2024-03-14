@@ -71,6 +71,14 @@ ul {
 header {
   height: 60px;
   background-color: var(--dark-color);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+header.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 header h2, header h2 a {
