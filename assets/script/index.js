@@ -31,3 +31,22 @@ const agents = [...document.querySelectorAll('.agent-avatar')];
 agents.forEach((agent, index) => {
   agent.style.backgroundImage = `url("./assets/media/agents/agent${index}.jpg")`;
 });
+
+const header = document.querySelector('header');
+const navBar = document.querySelector('nav ul');
+const nav = document.querySelector('nav');
+const menuButton = document.querySelector('.menu-icon');
+
+menuButton.addEventListener("click", menuToggle);
+let isToggled = false;
+function menuToggle() {
+ if (!isToggled) {
+  isToggled = true;
+  header.style.height = '300px';
+  navBar.style.display = 'block';
+ } else {
+  isToggled = false;
+  header.style.height = '60px';
+  navBar.style.display = 'flex';
+ }
+}
