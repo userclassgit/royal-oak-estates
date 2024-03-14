@@ -1,6 +1,15 @@
 @charset "utf-8";
 @import url("./reset.css");
 
+:root {
+  --dark-color: #1D1D1D;
+  --white-color: #FFFFFF;
+  --gray-color: #4F4F4F;
+  --small-border-radius: 3px;
+  --big-border-radius: 10px;
+  --section-margin-top: 55px;
+}
+
 * {
   transition: all 0.5 ease-in-out;
 }
@@ -25,15 +34,6 @@ html, body {
 .container { 
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
-}
-
-:root {
-  --dark-color: #1D1D1D;
-  --white-color: #FFFFFF;
-  --gray-color: #4F4F4F;
-  --small-border-radius: 3px;
-  --big-border-radius: 10px;
-  --section-margin-top: 40px;
 }
 
 body {

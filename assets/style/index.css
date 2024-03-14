@@ -89,11 +89,57 @@ h1 {
   cursor: pointer;
 }
 
-/* artical */
+/* article */
 
-.artical div div button {
+.article {
+  background-image: url("../media/article-img.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: var(--section-margin-top);
+  height: 466px;
+  color: var(--white-color);
+  position: relative;
+}
+
+.article::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.article div div button {
   border-radius: 50px;
   border: 1px solid var(--white-color);
+}
+
+.article .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 69;
+  gap: 25px;
+  h2 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.448);
+  }
+  p {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.448);
+  }
+
+  button {
+    width: 200px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
 
 /* about us */
@@ -195,10 +241,6 @@ form {
 /* responsivness */
 
 @media (max-width: 904px) {
-  h1 {
-    /* font-size: 40px; */
-  }
-
   .search-bar-container {
     width: 80%;
   }
