@@ -3,11 +3,7 @@
 @import url("./base.css");
 
 /* header  */
-
-
-
-
-
+/* see base css */
 /* header  end*/
 
 /* Hero banner */
@@ -31,8 +27,6 @@
     background: rgba(0, 0, 0, 0.479);
   }
 }
-
-
 
 .search-bar-container {
   text-align: center;
@@ -251,8 +245,16 @@ h1 {
     font-size: 20px;
   }
 }
+/* about us end */
 
 /* contact */
+
+.contact {
+  background-image: url('../media/contact-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .contact-column {
   width: 100%;
 }
