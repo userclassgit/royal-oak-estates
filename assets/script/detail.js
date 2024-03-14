@@ -17,12 +17,12 @@ tumbnails.forEach((tumb, index) => {
 });
 // left button click action
 leftBtn.addEventListener('click', () => {
-picturePointer > 1 ? picturePointer-- : picturePointer = 7;
+picturePointer > 1 ? picturePointer-- : picturePointer = 5;
 pictureBox.style.backgroundImage = `url("./assets/media/pictures/${picturePointer}.jpg")`;
 });
 // Right button click action
 rightBtn.addEventListener('click', () => {
-  picturePointer < 7 ? picturePointer++ : picturePointer = 0;
+  picturePointer < 5 ? picturePointer++ : picturePointer = 0;
   pictureBox.style.backgroundImage = `url("./assets/media/pictures/${picturePointer}.jpg")`;
 });
 
