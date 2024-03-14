@@ -144,8 +144,7 @@ a {
   background-color: var(--gray-color);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 300px;
+  background-size: cover;
   border-radius: var(--big-border-radius);
   color: var(--white-color);
   display: flex;
@@ -281,7 +280,6 @@ ul li {
   .home {
     width: 100%;
     height: 300px;
-    background-size: 450px;
   }
 }
 
@@ -317,7 +315,6 @@ ul li {
   .home {
     width: calc(100svw - 40px);
     height: 300px;
-    background-size: 600px;
     border-radius: 0;
   }
 
