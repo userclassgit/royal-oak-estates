@@ -26,3 +26,8 @@ dialog.addEventListener('click', (event) => {
 });
 //closes with x button
 xButton.addEventListener('click', () => dialog.close() );
+
+const agents = [...document.querySelectorAll('.agent-avatar')];
+agents.forEach((agent, index) => {
+  agent.style.backgroundImage = `url("./assets/media/agents/agent${index}.jpg")`;
+});
