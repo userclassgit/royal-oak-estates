@@ -89,6 +89,13 @@ h1 {
   cursor: pointer;
 }
 
+/* artical */
+
+.artical div div button {
+  border-radius: 50px;
+  border: 1px solid var(--white-color);
+}
+
 /* contact */
 .contact-column {
   width: 100%;
