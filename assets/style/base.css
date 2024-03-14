@@ -124,14 +124,17 @@ a {
 .home {
   width: 100%;
   height: 200px;
-  background-color: aqua; /* please change this monstruosity later */
-  border: 2px solid black; /* please change this monstruosity later */
+  background-color: var(--gray-color);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 300px;
   border-radius: var(--big-border-radius);
   color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 /* dialog section */
