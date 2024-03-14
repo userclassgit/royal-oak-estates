@@ -1,12 +1,12 @@
 # Royal Oak Estates
 
-Welcome to the Real Estate Website! This website is designed to help users find their dream homes, explore properties, and connect with real estate agents.
+Welcome to the Royal Oak Estates a prototype of Real Estate Website! This website is designed to help users find their dream homes, explore properties, and connect with real estate agents.
 
 ## Demo
 
 Please checkout our new website [here](https://henrybreukelman.github.io/royal-oak-estates/)
 
-NB: Colour Grading can be different from device to device.
+NB: Colour Grading can be different Based on device configuration.
 
 ## Features
 
@@ -21,7 +21,7 @@ NB: Colour Grading can be different from device to device.
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Authentication**: HTML Form
+- **Authentication**: HTML Form.
 - **Maps Integration**: Google Maps API
 - **Responsive Design**: CSS, JavaScript
 
@@ -56,5 +56,7 @@ This project is licensed under the google License - see the [LICENSE](#) file fo
 Images used in this project are sourced from [Unsplash](https://unsplash.com/).
 
 Favicon is generated from [Favicon.io](https://favicon.io/).
+
+Icons used in this project are sourced from [Fontawsome](https://fontawesome.com/).
 
 &copy; 2024 Royal Oak Estates. All rights reserved.
