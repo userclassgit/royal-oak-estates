@@ -127,6 +127,7 @@ a {
   background-size: contain;
   background-size: 300px;
   border-radius: var(--big-border-radius);
+  color: var(--white-color);
 }
 
 /* dialog section */
