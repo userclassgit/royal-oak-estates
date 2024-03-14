@@ -25,9 +25,15 @@ Please checkout our new website [here](https://henrybreukelman.github.io/royal-o
 
 NB: Colour Grading can be different from device to device.
 
-## Contributing
+## Contributors
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the [contribution guidelines](#).
+- **[Henry Breukelman](https://github.com/HenryBreukelman)**
+
+- **[Md Fahim Iftekahr](https://github.com/fiftekhar3163)**
+
+- **[Yaroslav Fedorenko](https://github.com/y-fedorenko)**
+
+- **[Myeongjeon Lee](https://github.com/userclassgit)**
 
 ## License
 
