@@ -54,7 +54,7 @@
       padding-left: 4%;
 
       &::placeholder {
-        color: var(--gray-color); /* Change as needed */
+        color: var(--gray-color);
         opacity: 0.4; /* Firefox requires this to change the color */
         font-size: 22px;
       }
@@ -124,13 +124,17 @@ form {
 
 @media (max-width: 904px) {
   h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
+  }
+
+  .search-bar-container {
+    width: 80%;
   }
 }
 
 @media (max-width: 599px){
   h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .contact-column {
@@ -143,5 +147,9 @@ form {
 
   .contact-info {
     width: 100%;
+  }
+
+  .search-bar-container {
+    width: 90%;
   }
 }
