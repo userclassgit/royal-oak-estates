@@ -25,6 +25,18 @@ NB: Colour Grading can be different from device to device.
 - **Maps Integration**: Google Maps API
 - **Responsive Design**: CSS, JavaScript
 
+## Design Phases
+
+Phase one - Wireframe
+
+![First phase](./assets/media/pictures/Readme%20picture%201.jpg)
+
+![First phase](./assets/media/pictures/Readme%20picture%202.jpg)
+
+Phase two - Sketch app
+
+![Last phase](./assets/media/pictures/Readme%20picture%20.jpg)
+
 ## Contributors
 
 - **[Henry Breukelman](https://github.com/HenryBreukelman)**
