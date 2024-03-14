@@ -32,10 +32,11 @@ agents.forEach((agent, index) => {
   agent.style.backgroundImage = `url("./assets/media/agents/agent${index}.jpg")`;
 });
 
+
+//hamburger menu click toggle
 const header = document.querySelector('header');
 const navBar = document.querySelector('nav ul');
 const menuButton = document.querySelector('.menu-icon');
-
 menuButton.addEventListener("click", menuToggle);
 let isToggled = false;
 function menuToggle() {
@@ -49,3 +50,34 @@ function menuToggle() {
   navBar.style.display = 'flex';
  }
 }
+
+
+//Animation
+const heroBanner = document.getElementById('hero-banner');
+const homesSection = document.getElementById('browse-homes');
+const article = document.getElementById('article'); 
+const aboutUs = document.getElementById('about-us');
+const contactUs = document.getElementById('contact');
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+      }
+  });
+}, { threshold: 0.5 });
+
+const animationList = [
+  header,
+  heroBanner,
+  homesSection,
+  article,
+  aboutUs,
+  contactUs
+];
+
+animationList.forEach(element => {
+  observer.observe(element);
+});
+

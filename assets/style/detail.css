@@ -4,6 +4,17 @@
 
 /* Picture previewer */
 
+#images-section { 
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 1s ease;
+}
+
+#images-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* this is an outer container, required for alignment and setting the size */
 .viewer-box {
   /* display: flex; */
@@ -73,6 +84,17 @@
 /* Picture previewer  end*/
 /* info */
 
+#house-info { 
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 1s ease;
+}
+
+#house-info.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .info div {
   margin-top: 15px;
 }
@@ -110,6 +132,17 @@ h3 {
 }
 
 /*more homes*/
+
+#more-houses { 
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 1s ease;
+}
+
+#more-houses.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .similar-homes {
   margin-bottom: 40px;
