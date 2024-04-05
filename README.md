@@ -1,39 +1,19 @@
 # Royal Oak Estates
-
-Welcome to the Royal Oak Estates a prototype of Real Estate Website! This website is designed to help users find their dream homes, explore properties, and connect with real estate agents.
-
-## Demo
-
-Please checkout our new website [here](https://henrybreukelman.github.io/royal-oak-estates/)
-
-NB: Colour Grading can be different Based on device configuration.
-
-## Features
-
-- **Search**: Easily search for properties based on location, price range, size, and other criteria.
-- **Property Listings**: Browse through a wide range of property listings with detailed information, including images, descriptions, and amenities.
-- **Favorites**: Save your favorite properties to view later or compare with other listings.
-- **Articles**: Read the valuable articles on houses and get suggestion for every steps of becoming a house owner.
-- **login**: Become a member and get notified for every great deal in your neighbourhood. This also make sure that you have a personalized experience in this website.
-- **Agent Profiles**: Learn more about real estate agents, their experience, and contact information.
-- **Contact Form**: Reach out to agents or property owners directly through the website's contact form.
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Authentication**: HTML Form.
-- **Maps Integration**: Google Maps API
-- **Responsive Design**: CSS, JavaScript
+Click [here](https://henrybreukelman.github.io/royal-oak-estates/) to check out the demo.
 
 ## Design Phases
 
-Phase one - Wireframe
+**Phase one - Wireframe**
+
+Me and my team members spent the first day drawing the wireframe for the website. We checked out other websites for inspirations and we tried to figure out the best layout for this project.
 
 ![First phase](./assets/media/pictures/Readme%20picture%201.jpg)
 
 ![First phase](./assets/media/pictures/Readme%20picture%202.jpg)
 
-Phase two - Sketch app
+**Phase two - Sketch app**
+
+I created/designed the UI details in Sketch and then I exported my Sketch design as a pdf so that me and my teammates could use it as a reference when coding. We tried our best to make the actual website look as close to my Sketch design as possible within the limited amount of time we were given.
 
 ![Last phase](./assets/media/pictures/Readme%20picture%20.jpg)
 
@@ -47,16 +27,3 @@ Phase two - Sketch app
 
 - **[Myeongjeon Lee](https://github.com/userclassgit)**
 
-## License
-
-This project is licensed under the google License - see the [LICENSE](#) file for details.
-
-## Acknowledgements
-
-Images used in this project are sourced from [Unsplash](https://unsplash.com/).
-
-Favicon is generated from [Favicon.io](https://favicon.io/).
-
-Icons used in this project are sourced from [Fontawsome](https://fontawesome.com/).
-
-&copy; 2024 Royal Oak Estates. All rights reserved.
