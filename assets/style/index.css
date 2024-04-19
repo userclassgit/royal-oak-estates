@@ -260,11 +260,12 @@ h1 {
   }
 
   .about-person {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-size: 18px;
     font-weight: 300;
     line-height: 2;
     color: var(--gray-color);
+    text-align: left;
   }
 
   &:hover {
@@ -322,6 +323,16 @@ margin-top: var(--section-margin-top);
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white-color);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  .contact-title {
+    text-align: center;
+    margin-top: var(--section-margin-top);
+    z-index: 10;
+    position: relative;
+    margin-bottom: 30px;
+  }
 }
 
 .contact-column form, .contact-column .contact-info {
