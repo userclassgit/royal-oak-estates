@@ -339,6 +339,10 @@ margin-top: var(--section-margin-top);
   z-index: 4;
 }
 
+.contact-column {
+  margin-bottom: var(--section-margin-top);
+}
+
 .contact-background-container::before {
   content: "";
   position: absolute;
